@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+
+        p{
+            color: blue;
+            background: violet;
+            font-size: 30px;
+            text-align: justify; 
+            width: 800px;
+            height: fit-content;
+            margin-top: auto;
+            padding: 30px;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        #paragraph1{
+            color: green;
+            background: pink;
+            font-size: 30px;
+            font-weight: bold;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1{
+            color: red;
+            background: yellow;
+            font-size: 30px;
+        }
+        h2{
+            color: orange;
+            background: cyan;
+            font-size: 30px;
+        
+        }
+
+        #paragraph2{
+            color: purple;
+            background-color: yellow;
+            font-size: 30px;
+        }
+
+        .paragraph3{
+            color: red;
+            background-color: white;
+            font-size: 30px;
+        }
+   </style>
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="paragraph1"> Hello, this is a simple sentence. To work with. I will continue to add words so this paragraph grows and grows and grows.</p>
+    
+
+    <h1> This is a heading 1</h1>
+
+    <H2>
+    This is a heading 2
+    </H2>
+
+    <p id="paragraph2"> This is a paragraph under the heading 2.</p>
+
+    <p class="paragraph3"> This is another paragraph.</p>
+</body>
+</html>

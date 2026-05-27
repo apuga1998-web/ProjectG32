@@ -1,0 +1,30 @@
+body {
+    height: 3000px;
+}   
+
+nav {
+position-try: fixed;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+#whatsapp   {
+    position: sticky;
+    background-color: green;
+    ;
+
+}
+
+#caja {
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    align-content: center
+    height: 100px;         
+    width:100px;
+    background-color: red;
+    position: fixed; 
+   
+
+}   

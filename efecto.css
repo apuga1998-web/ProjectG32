@@ -1,0 +1,26 @@
+button{
+    background-color: lightblue;
+    border: 0px;
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: background-color .02s;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+}
+
+button:active{
+    background-color: darkblue;
+    color: white;
+
+}
+
+a:visited {
+    color: purple;
+}
+
+a:link; {
+    color: blue;
+}
