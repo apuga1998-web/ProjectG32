@@ -1,0 +1,191 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #2c3e50;
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Hero */
+.hero {
+    height: 80vh;
+    background: url('hero-image.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content {
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #f1c40f;
+    color: #000;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: #e6b800;
+}
+
+/* Sections */
+.section {
+    padding: 70px 10%;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+}
+
+/* Cards */
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    background: #f4f4f4;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+/* Pricing Table */
+table {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background: #2c3e50;
+    color: white;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.gallery-box {
+    height: 220px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+/* Contact */
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo img {
+   width: 90px;
+    height: 90px; 
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;    
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.logo-text h1{
+    margin: 0;
+    font-size: 2rem;
+    color: white;
+}
+
+.logo-text p { 
+    margin: 0;
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+.gallery img {
+ width: 100%;
+height: 350px;
+object-fit: cover;
+border-radius: 10px;
+}
